@@ -7,4 +7,4 @@ URL dump files are named by Camera manufacturer, whether it came from the RAW or
 
 ### RAW
 Includes all RAW and .ACR.JPEG files for all cameras at all ISO levels — .ACR.JPEG are Adobe Camera Raw JPEG exports.
-These files are mostly unsorted. Camera and ISO metadata will be able to sort and catagorize these later, excpet for special camera modes that require their own dedicated files for context.
+These files are mostly unsorted. Camera and ISO metadata will be able to sort and catagorize these later, except for special camera modes. These require their own dedicated files for context as they risk being lost without separating them.
