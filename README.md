@@ -18,5 +18,5 @@ These files are mostly unsorted. Camera and ISO metadata will be able to sort an
 - Start scraping Exposure Latitude
 - Start scraping ISO-Invariance
 
-### Progress: 8%
-- 26.5 GB downloaded
+### Progress: 15%
+- 51.0 GB downloaded
