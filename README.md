@@ -18,4 +18,4 @@ These files are mostly unsorted. Camera and ISO metadata will be able to sort an
 - Start scraping ISO-Invariance
 
 ### Progress: 8%
-- 24GB downloaded
+- 26.5 GB downloaded
