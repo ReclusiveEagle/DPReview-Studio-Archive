@@ -2,7 +2,7 @@
 Archive of DPReview Studio comparison tool. Also includes ISO-invariance and Exposure latitude.
 
 ## URL Dump
-Files are uploaded as I finish downloading all images.
+Text files are uploaded as I finish downloading all images. Images will be uploaded as soon as as I have completed the archive download.
 ### File Names
 Folders and URL dump.txt files are named by Camera manufacturer, whether it came from the RAW or JPEG drop down list, the lighting conditions, and any special camera modes such as super raw, multi-shot, pixel shift, etc. All images will retain their original file names.
 
