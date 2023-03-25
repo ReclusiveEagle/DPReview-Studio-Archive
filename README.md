@@ -11,7 +11,7 @@ Includes all RAW and .ACR.JPEG files for all cameras at all ISO levels. These fi
 — *.ACR.JPEG are Adobe Camera Raw JPEG exports*
 
 ### To do:
-- Finish scraping RAW day light: **40% Complete**
+- Finish scraping RAW day light: **55% Complete**
 - Start scraping RAW low light
 - Start scraping JPEG day light
 - Start scraping JPEG low light
