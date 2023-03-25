@@ -19,5 +19,5 @@ Includes all RAW and .ACR.JPEG files for all cameras at all ISO levels. These fi
 - Start scraping [ISO-Invariance](https://www.dpreview.com/reviews/image-comparison/fullscreen?normalization=full&widget=487)
 - Start scraping [Video Stills](https://www.dpreview.com/reviews/image-comparison/fullscreen?widget=131)
 
-## Progress: 18%
-- 62.5 GB downloaded
+## Progress: 20%
+- 82.1 GB downloaded
