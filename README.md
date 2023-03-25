@@ -17,6 +17,7 @@ These files are mostly unsorted. Camera and ISO metadata will be able to sort an
 - Start scraping JPEG low light
 - Start scraping Exposure Latitude
 - Start scraping ISO-Invariance
+- Start scraping [Video Stills](https://www.dpreview.com/reviews/image-comparison/fullscreen?widget=131)
 
 ### Progress: 15%
 - 51.0 GB downloaded
