@@ -15,8 +15,8 @@ These files are mostly unsorted. Camera and ISO metadata will be able to sort an
 - Start scraping RAW low light
 - Start scraping JPEG day light
 - Start scraping JPEG low light
-- Start scraping Exposure Latitude
-- Start scraping ISO-Invariance
+- Start scraping [Exposure Latitude](https://www.dpreview.com/reviews/image-comparison/fullscreen?attr144_0=canon_eos80d&attr144_1=samsung_nx1&attr144_2=nikon_d7200&attr144_3=sony_a7rii&attr146_0=100_5&attr146_1=100_5&attr146_2=100_5&attr146_3=100_5&normalization=full&widget=327&x=0.10369374795587384&y=-0.9376650802474712)
+- Start scraping [ISO-Invariance](https://www.dpreview.com/reviews/image-comparison/fullscreen?normalization=full&widget=487)
 - Start scraping [Video Stills](https://www.dpreview.com/reviews/image-comparison/fullscreen?widget=131)
 
 ### Progress: 15%
