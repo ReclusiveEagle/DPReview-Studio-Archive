@@ -19,5 +19,5 @@ These files are mostly unsorted. Camera and ISO metadata will be able to sort an
 - Start scraping [ISO-Invariance](https://www.dpreview.com/reviews/image-comparison/fullscreen?normalization=full&widget=487)
 - Start scraping [Video Stills](https://www.dpreview.com/reviews/image-comparison/fullscreen?widget=131)
 
-### Progress: 15%
+## Progress: 15%
 - 51.0 GB downloaded
