@@ -8,7 +8,8 @@ Folders and URL dump.txt files are named by Camera manufacturer, whether it came
 
 ### RAW
 Includes all RAW and .ACR.JPEG files for all cameras at all ISO levels.  
-These files are mostly unsorted. Camera and ISO metadata will be able to sort and catagorize these later, except for special camera modes. These require their own dedicated files for context as they risk being lost without separating them. — *.ACR.JPEG are Adobe Camera Raw JPEG exports*
+These files are mostly unsorted. Camera and ISO metadata will be able to sort and catagorize these later, except for special camera modes. These require their own dedicated files for context as they risk being lost without separating them.  
+— *.ACR.JPEG are Adobe Camera Raw JPEG exports*
 
 ### To do:
 - Finish scraping RAW day light: **40% Complete**
