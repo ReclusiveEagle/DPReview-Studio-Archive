@@ -1,0 +1,43 @@
+let result = [];
+
+// Collect links and metadata
+document.querySelectorAll(".downloadLinks a").forEach(linkElement => {
+  let link = linkElement.href;
+  let metadata = {};
+
+  let slotAttributes = linkElement.closest(".slot").querySelector(".slotAttributes");
+
+let cameraValue = slotAttributes.querySelector(".imageAttribute.dropdown.camera .imageAttrInput");
+metadata["Camera"] = cameraValue.selectedIndex >= 0 ? cameraValue.options[cameraValue.selectedIndex].text : "";
+
+  let isoValue = slotAttributes.querySelector(".imageAttribute.dropdown.iso .imageAttrInput").value;
+  metadata["ISO"] = isoValue || "";
+
+  let jpegRawValue = slotAttributes.querySelector(".imageAttribute.dropdown.mode-jpeg-raw .imageAttrInput").value;
+  metadata["JPEGRAW"] = jpegRawValue || "";
+
+let multiShotModeValue = slotAttributes.querySelector(".imageAttribute.dropdown.multi-shot-mode .imageAttrInput");
+metadata["multi-shot-mode"] = multiShotModeValue.selectedIndex >= 0 ? multiShotModeValue.options[multiShotModeValue.selectedIndex].text : "";
+
+let rawSizeValue = slotAttributes.querySelector(".imageAttribute.dropdown.raw-size .imageAttrInput");
+metadata["Raw Size"] = rawSizeValue.selectedIndex >= 0 ? rawSizeValue.options[rawSizeValue.selectedIndex].text : "";
+
+  let lightingValue = document.querySelector(".header .lighting .selected").title;
+  metadata["Lighting"] = lightingValue;
+
+let shutterModeValue = slotAttributes.querySelector(".imageAttribute.dropdown.shutter-mode .imageAttrInput");
+metadata["Shutter Mode"] = shutterModeValue.selectedIndex >= 0 ? shutterModeValue.options[shutterModeValue.selectedIndex].text : "";
+
+  // Check if an object with the same metadata already exists in the result array
+  let existingObjectIndex = result.findIndex(obj => JSON.stringify(obj.metadata) === JSON.stringify(metadata));
+  
+  if (existingObjectIndex !== -1) {
+    // If an object with the same metadata already exists, add the link to its links array
+    result[existingObjectIndex].links.push(link);
+  } else {
+    // If an object with the same metadata does not exist, create a new object and add it to the result array
+    result.push({links: [link], metadata: metadata});
+  }
+});
+
+console.log(result);
