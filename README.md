@@ -23,4 +23,4 @@ Includes all RAW and .ACR.JPEG files for all cameras at all ISO levels. These fi
 - 87.2 GB downloaded
 
 ## JS Scraper
-Links were being extracted semi automatically using a macro. However, DPReview has implemented a rate limit of 34 images per 3 minutes. This would have required over 17 hours per section to scraped and needed to be supervised. A JS Scraper is now being made to aid in extracting links. This has the added benifit of preserving metadata for file organization.
+Links were being extracted semi automatically using a macro. However, DPReview has implemented a rate limit of 34 images per 3 minutes. This would have required over 17 hours per section to scraped and needed to be supervised. A JS Scraper is now being made to aid in extracting links. This has the added benifit of preserving metadata for file organization. JS Scraper can be copied directly into the browser console.
