@@ -17,7 +17,7 @@ metadata["Camera"] = cameraValue.selectedIndex >= 0 ? cameraValue.options[camera
   metadata["JPEGRAW"] = jpegRawValue || "";
 
 let multiShotModeValue = slotAttributes.querySelector(".imageAttribute.dropdown.multi-shot-mode .imageAttrInput");
-metadata["multi-shot-mode"] = multiShotModeValue.selectedIndex >= 0 ? multiShotModeValue.options[multiShotModeValue.selectedIndex].text : "";
+metadata["Multi-shot-mode"] = multiShotModeValue.selectedIndex >= 0 ? multiShotModeValue.options[multiShotModeValue.selectedIndex].text : "";
 
 let rawSizeValue = slotAttributes.querySelector(".imageAttribute.dropdown.raw-size .imageAttrInput");
 metadata["Raw Size"] = rawSizeValue.selectedIndex >= 0 ? rawSizeValue.options[rawSizeValue.selectedIndex].text : "";
